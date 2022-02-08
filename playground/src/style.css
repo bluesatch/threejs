@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eaeae3
+}
+
+canvas {
+    margin: 0;
+    padding: 0;
+}

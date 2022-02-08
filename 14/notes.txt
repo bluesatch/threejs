@@ -1,0 +1,22 @@
+GO LIVE
+
+Need hosting
+
+We will use Vercel
+    Create Vercel account
+
+use npm run build instead of npm run dev
+
+    npm run build creates /dist/ folder
+
+Using Vercel:
+
+    npm i vercel 
+
+    in package.json 
+        add to scripts
+            "deploy": "vercel --prod"
+
+    npm run deplpy
+
+CHANGE OUTPUT DIRECTORY FROM PUBLIC TO DIST!!!!

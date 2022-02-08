@@ -1,0 +1,21 @@
+Cameras
+
+Camera class
+Camera() creates a new Camera; not intended to be called directly; use PerspectiveCamera or OrthographicCamera
+
+ArrayCamera => render the scene from multiple cameras on specific areas of the render 
+
+StereoCamera => render the scene through two cameras that mimic the eyes to create a parallax effect
+
+CubeCamera => 6 renders each one facing a different direction
+
+OrthographicCamera renders the scene without perspective 
+
+PerspectiveCamera => render the scene with perspective 
+
+Custom Controls =>  see documentation
+    using orbitControls => allows the camera to orbit around a target
+
+When to use Built-in controls or custom?
+    make sure they support all the features you need
+    

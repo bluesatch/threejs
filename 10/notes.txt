@@ -1,0 +1,24 @@
+Tweak and debug easily
+
+helps find perfect color, speed, quantity, etc
+
+We need a debug UI
+
+Create own or use a library
+    dat.GUI => use this one
+    control-panel
+    ControlKit
+    Guify
+    Oui
+
+SETUP
+    add dat.gui dependency
+    www.npmjs.com/package/datgui
+    npm install --save lil-gui 
+    import * as dat from 'lil-gui'
+
+TIPS
+    Press H to hide the panel
+    to hide from the start use gui.hide()
+    can change the width by drag and dropping the panel
+    Add tweaks as you progress

@@ -1,0 +1,27 @@
+TEXT
+
+TextBufferGeometry
+
+Get a typeface font
+convert a font with tools like gero3.github.io/facetype.js
+
+use fontws provided by three.js 
+    inside node_modules folder
+
+three/examples/fonts 
+put them in the static folder 
+can load by doing import
+    ex
+        import font from 'three/examples/fonts/helvetiker_regular.typeface.json'
+
+Load the Font 
+FontLoader()
+
+To center text, use Bounding
+    bounding => an information associated with the geometry that tells what space is taken by that Geometry 
+
+    helps Three.js calculate if the object is on the screen (frustum culling)
+
+    OR...
+
+    Call the center() method on the geometry

@@ -1,0 +1,43 @@
+Transform Objects
+
+4 properties to transform Objects   
+    position
+    scale
+    rotation
+    quaternion => like a rotation 
+
+All classes that inherit from the Object3D posess those properties like PerspectiveCamera or Mesh
+
+Properties will be compiled in matrices
+
+** Move Objects **
+Position 
+    position is a Vector3
+    look at Vector3 documentation
+    .length() computes the euclidean length (straight line length)
+
+    .distanceTo(v) computes the distance from this vector to v
+
+    values can be normalized; takes vector length and reduces it until length is 1
+
+
+    AxesHelper
+
+Scale 
+    mesh.scale 
+
+Rotation 
+    Can use rotation or quarternion properties 
+    See Euler in docs
+    gimbal lock => one of the axes aren't working anymore
+
+    can change order by using the reorder(...) method
+
+    do it before changing rotation mesh.rotation.reordder('YXZ')
+
+Quaternion expresses a rotation, but in a more mathematical way; updates when you change the rotation
+
+Can combine transformations
+
+Put objects inside groups and use position, rotation (or quaternion) and move group 
+Use Group class 

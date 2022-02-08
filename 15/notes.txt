@@ -1,0 +1,23 @@
+LIGHTS
+
+How to use Three.js lights 
+
+adding light is a simple as adding meshes
+instantiate classes
+
+Use the lights that cost less
+
+Minimal cost
+    AmbientLight
+    HemisphereLight 
+
+Moderate Cost 
+    DirectionLight
+    PointLIght
+
+High Cost   
+    SpotLight
+    RectAreaLight
+
+Baking
+    can bake the light into the texture

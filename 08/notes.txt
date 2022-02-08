@@ -1,0 +1,14 @@
+Fit in the Viewport
+    use window.innerWidth and window.innerHeight
+
+Handle Resizing
+    Update Sizes
+    Update Camera
+    Update Renderer
+
+Handle Pixel Ratio
+    The pixel ratio corresponds to how many physical pixels you have on the screen for one pixel unit on the software part
+
+    Highest pixel ratios are usually on the weakest devices
+
+Handle fullscreen

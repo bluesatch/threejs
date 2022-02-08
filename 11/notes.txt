@@ -1,0 +1,43 @@
+Textures
+
+images that will cover the surface of the geometries
+    many types with many different effects
+
+most used => door textures by Joao Paulo 
+
+most simple one Color (Or albedo) 
+Alpha texture => grayscale image white visible/black not visible
+
+height (or displacement)
+
+we will be moving vertices up and down 
+will need enough subdivision
+
+Normal => doesn't need subdivision
+
+Ambient occlusion
+    add fake shadows in crevices
+
+metalness
+    mostly for reflection
+
+Roughnness
+    in duo with metalness
+    mostly for light dissipation
+
+PBR Principles
+    Physically Based Rendering
+    Many techniques that tend to follow real-life directions to get realistic results
+    Becoming the standard for realistic renders
+    Many software, engines, and libraries are using it
+
+Where to find textures?
+
+    poliigon.com
+    3dtextures.me 
+    arroway-textures.ch
+
+Can create own textures with 
+substance3d.com/products/substance-designer
+
+

@@ -1,0 +1,13 @@
+Geometries
+
+Composed of vertices (point coordinates in 3D plane) and faces
+    faces => triangle between three vertices
+
+Can be used to create meshes or particles
+
+Built-In Geometries
+    inherit from BufferGeometry
+    Built in methods like translate() rotateX, etc.
+
+    Look up Geometry in docs
+        

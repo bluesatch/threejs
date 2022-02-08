@@ -1,0 +1,27 @@
+Materials
+
+write PlaneGeometry instead of PlaneBufferGeometry
+
+Materials are used to put a color on each visible pixel of the geometries
+The algorithms are written in programs called shaders
+
+We don't need to write shaders and we can use built-in materials
+
+See Materials in docs
+MeshBasicMaterial => Most common
+
+MeshNormalMaterial => can be used for lighting, reflection, refraction, etc
+
+MeshMatcapMaterial => will display a color by using the normals as a reference to pick the right color on a texture that looks like a sphere
+
+    github.com/nodorx/matcaps 
+
+MeshDepthMaterial
+
+MeshLambertMaterial
+
+MeshPhongMaterial
+
+MeshToonMaterial => looks cartoony
+
+Check HDRIHaven
