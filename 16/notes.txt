@@ -1,0 +1,28 @@
+SHADOWS
+
+core shadows/drop shadows
+
+core shadows are already working with the light
+
+drop shadows will show on plane
+
+Three.js will do a render for each light supporting shadows 
+Those renders will simulate what the light sees as if it was a camera
+
+During these light renders, a MeshDepthMaterial replaces all meshes materials
+
+shadow maps => textures of what the lights can see 
+
+How to activate shadows 
+renderer.shadowMap.enabled = true
+
+Only the following lights support shadows 
+    PointLight
+    DirectionalLight
+    SpotLight
+
+Different types of algorithms can be applied to shadow maps
+    THREE.BasicShadowMap => Very performant but lousy quality
+    THREE.PCFShadowMap => Less performant but smoother edges(default)
+    THREE.PCSSoftShadowMap => Less performant but even softer edges
+    THREE.VSMShadowMap => Less performant, more constraints, cna have unexpected results
