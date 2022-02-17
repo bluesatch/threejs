@@ -1,0 +1,9 @@
+PARTICLES 
+
+Each particle is composed of one plane
+
+Creating particles is like creating a Mesh
+    a geometry
+    a material
+    a Points instance (instead of a mesh)
+
